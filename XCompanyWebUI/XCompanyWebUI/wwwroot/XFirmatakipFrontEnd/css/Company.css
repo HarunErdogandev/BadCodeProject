@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=REM&display=swap');
+body{
+    box-sizing: border-box;
+    font-family: 'REM', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/* Temel stil */
+.row-information {
+    
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* İsim grupları */
+.name-group {
+    margin-bottom: 15px;
+}
+
+/* Kişi bilgisi etiketleri (Ad, Soyad, Firma İsmi, Telefon, Adres) */
+.person-information {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Veritabanı sonuçları (İsim, Firma, Telefon, Adres) */
+.db-result {
+    color: #333;
+    font-size: 16px;
+}
+
+/* Telefon bilgisi için özel stil */
+.db-result.telefon {
+    font-family: "Courier New", monospace;
+}
+
+/* Adres bilgisi için özel stil */
+.db-result.adres {
+    font-style: italic;
+}
+
+.person-img{
+    width: 200px;
+    height: 170px;
+    margin: 5px;
+}
+.person-img img{
+    width: 100%;
+    height: 100%;
+}
+.remaining-dept{
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    font-family: 'REM', sans-serif;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(
+  45deg,
+  hsl(120deg 20% 79%) 0%,
+  hsl(120deg 30% 77%) 11%,
+  hsl(121deg 38% 74%) 22%,
+  hsl(121deg 44% 72%) 33%,
+  hsl(122deg 50% 69%) 44%,
+  hsl(123deg 55% 66%) 56%,
+  hsl(124deg 59% 63%) 67%,
+  hsl(126deg 63% 59%) 78%,
+  hsl(129deg 67% 54%) 89%,
+  hsl(138deg 100% 42%) 100%
+);
+    
+}
+.remaining-dept .money-icon{
+    /* width: 66px; */
+    height: 56px;
+}
+
+.money-icon img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.remaining-dept .group{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55%;
+    font-family: 'REM', sans-serif;
+    
+}
+.remaining-dept .title{
+    text-align: center;
+    padding: 5px;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+.group .price-grp{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.row .title-panel{
+    text-align: center;
+    font-size: 2rem;
+    border :1px solid #555;
+}
+
+.custom-table{
+    font-size:12px;
+}
+
+.data-list {
+    display: flex;
+    justify-content: right;
+    margin: 5px;
+    background-color: cornflowerblue;
+    padding: 10px;
+}

@@ -1,0 +1,42 @@
+﻿
+
+
+
+<div class="container">
+        <div class="row justify-content-center">
+        <form asp-action="CompanyAdd" asp-controller="Company" method="post">
+            <div class="col-md-6">
+                <h2 class="text-center">Firma Ekleme Formu</h2>
+                
+                    
+                    <div class="form-group">
+                        <label for="CompanyName">Firma İsmi:</label>
+                        <input type="text" class="form-control" id="CompanyName" name="CompanyName">
+                    </div>
+                    <div class="form-group">
+                        <label for="CompanyDebt">Firma Borcu:</label>
+                        <input type="text" class="form-control" id="CompanyDebt" name="CompanyDebt">
+                    </div>
+            </div>
+            <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="OwnerName">Sahibi:</label>
+                        <input type="text" class="form-control" id="OwnerName" name="OwnerName">
+                    </div>
+                    <div class="form-group">
+                        <label for="OwnerSurName">Soyadı:</label>
+                        <input type="text" class="form-control" id="OwnerSurName" name="OwnerSurName">
+                    </div>
+                    <div class="form-group">
+                        <label for="OwnerPhone">Telefon:</label>
+                        <input type="text" class="form-control" id="OwnerPhone" name="OwnerPhone">
+                    </div>
+                    <div class="form-group">
+                        <label for="OwnerAddress">Addres:</label>
+                        <input type="text" class="form-control" id="OwnerAddress" name="OwnerAddress">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Firma Ekle</button>
+            </div>
+         </form>
+        </div>
+    </div>
