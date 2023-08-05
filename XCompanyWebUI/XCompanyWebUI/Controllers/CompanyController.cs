@@ -106,7 +106,7 @@ namespace XCompanyWebUI.Controllers
         public IActionResult CompanyAdd(Company company)
         {
             var contex = new XCompanyDb();
-
+            
             contex.Add(company);
             contex.SaveChanges();
 
